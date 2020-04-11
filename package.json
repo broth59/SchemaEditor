@@ -1,9 +1,30 @@
 {
-  "name": "SchemaEditor",
-  "version": "1.0.0",
-  "description": "Please be the editor",
-  "main": "index.ts",
-  "repository": "https://github.com/broth59/SchemaEditor.git",
-  "author": "ME",
-  "license": "MIT"
+    "name": "SchemaEditor",
+    "version": "1.0.0",
+    "description": "Please be the editor",
+    "main": "index.ts",
+    "repository": "https://github.com/broth59/SchemaEditor.git",
+    "author": "ME",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack-dev-server --watch --hot"
+    },
+    "dependencies": {
+        "@babel/core": "^7.9.0",
+        "@babel/polyfill": "^7.8.7",
+        "@babel/preset-react": "^7.9.4",
+        "@types/react": "^16.9.34",
+        "@types/react-dom": "^16.9.6",
+        "@types/react-hot-loader": "^4.1.1",
+        "awesome-typescript-loader": "^5.2.1",
+        "html-webpack-plugin": "^4.2.0",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-hot-loader": "^4.12.20",
+        "ts-loader": "^6.2.2",
+        "typescript": "^3.8.3",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.10.3"
+    }
 }
