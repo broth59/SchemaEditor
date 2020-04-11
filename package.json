@@ -1,0 +1,9 @@
+{
+  "name": "SchemaEditor",
+  "version": "1.0.0",
+  "description": "Please be the editor",
+  "main": "index.ts",
+  "repository": "https://github.com/broth59/SchemaEditor.git",
+  "author": "ME",
+  "license": "MIT"
+}
